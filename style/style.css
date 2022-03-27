@@ -1,0 +1,153 @@
+/* 
+                                         
+                           93+         93+ 
+                           +93   /     +93 
+___  __    __  ____    ___ ___  /M     ___ 
+`AT 6ATb  6ATb `AT(    )M' `93 /ATTUR  `KE 
+ +381 `DATE `M0 `Nt    h'   93  AT      XE 
+ 63'   05'   07  1993YEA    93  AT      @G 
+ 11    07    07   AT  M     93  AT      MA 
+ 68    19    19   `Zyx'     93  AT      IL 
+ 07    93    93    SRB      93  AT.  ,  .C 
+_6_   _6_   _6_     V       93   MVJT1 _OM_
+                            93             
+                        (1) 93             
+                         JUL5              
+
+ Version: 0.0.1
+  Author: Aleksandar Turovic
+ Website: *//*
+    Docs: *//*
+    Repo: *//*
+  Issues: *//*
+    c@Not Published
+  */
+
+* {
+    margin:0;
+    padding: 0;
+}
+
+body {
+
+    background: url(images/tree-branch-forest.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+
+    position: relative;
+    width: 100%;
+    max-width: 1000vh;
+    min-height: 1000px;
+    background:rgba(21, 36, 36, 0.603);
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px 20px 0;
+
+}
+
+.container .left-side {
+
+    position:relative;
+    background:#353b3d;
+    
+}
+/* SURVIVAL KIT APP STYLE 1 */
+
+#stanje {
+
+    margin-top: 5px;;
+}
+.solo:hover {
+    color: rgb(53, 13, 13);
+}
+
+.duo:hover {
+    color: rgb(58, 14, 14);
+}
+
+.home:hover {
+    color: rgb(170, 33, 33);
+}
+
+.home {
+    color: rgb(185, 3, 3);
+    background:linear-gradient(120deg, rgb(50, 53, 35), rgb(252, 143, 110)60%);
+}
+
+.duo {
+    color:rgb(141, 12, 12);
+    background:linear-gradient(180deg, rgb(221, 191, 135), rgb(241, 98, 98)60%);
+}
+
+.solo {
+    color: rgb(153, 13, 13);
+    background:linear-gradient(280deg, rgb(223, 97, 80), rgb(148, 120, 120)60%);
+}
+
+.ruleColor {
+
+    color: rgb(209, 207, 240);
+    background:linear-gradient(360deg, rgb(33, 141, 168), rgb(189, 130, 130)60%);
+}
+
+
+
+li {
+    position: relative;
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+
+li:hover {
+    
+    color:rgb(0, 0, 0);
+}
+
+body div.container
+
+.main {
+    width: 250px;
+    height: 622px;
+    margin: 10px;
+    margin-top: 100px;
+    font-size: 2rem;
+}
+
+.rezije {
+    box-shadow: rgb(211, 200, 200) 5px 5px;
+    width: 250px;
+    height: 622px;
+    margin: 1px;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.total-box {
+
+    border: 1px solid rgb(87, 82, 82);
+    position: relative;
+    background: lightslategray;
+    box-shadow: 4px 3px rgb(196, 187, 187);
+    width: 100%;
+    margin: 6px auto;
+    min-height: 50px;
+    max-width: 100vh;
+}

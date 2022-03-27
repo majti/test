@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: url(images/tree-branch-forest.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.containerX {
+
+    position: relative;
+    width: 100%;
+    max-width: 1000vh;
+    min-height: 1000px;
+    background:white;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.containerX .left-sideX {
+
+    position:relative;
+    background:#353b3d;
+    padding: 40px;
+    
+}
+
+.profile-textX {
+
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.profile-textX .img-boxX {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.profile-textX .img-boxX img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profile-textX h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profile-textX h2 span {
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.contact-infoX {
+
+    padding-top: 40px;
+
+}
+
+.titleX {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.contact-infoX ul {
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contact-infoX ul li .iconX {
+
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(165,209,251);
+}
+
+.contact-infoX ul  li span {
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact-infoX .educationX li {
+
+    margin-bottom: 15px;
+}
+
+.contact-infoX .educationX h5 {
+
+    color: rgb(165,209,251);
+    font-weight: 500;
+}
+
+.contact-infoX .educationX h4 {
+
+    color: #fff;
+    font-weight: 300;
+}
+
+.contact-infoX .languageX .percentX {
+
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgba(116, 130, 211, 0.13);
+    display: block;
+    margin-top: 5px;
+    
+}
+
+.contact-infoX .languageX .percentX div {
+
+
+    position: absoulte;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(165,209,251, 0.473);
+}
+
+
+
+.containerX .right-sideX {
+
+    position:relative;
+    background:#fff;
+    padding: 40px;
+
+}
+
+.aboutX {
+    margin-bottom: 50px;
+
+}
+.aboutX :last-child {
+    margin-bottom: 0;
+
+}
+
+.title2X {
+    color: darkslategray;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #333;
+}
+
+.aboutX .boxX {
+    
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0 ;
+}
+
+.aboutX .boxX .year_companyX {
+
+    min-width: 150px;
+}
+
+.aboutX .boxX .year_companyX h5 {
+    text-transform: uppercase;
+    color: gray;
+
+}
+
+.aboutX .boxX .textX h4 {
+    text-transform: uppercase;
+    color: rgb(165,209,251);
+    font-size: 16px;
+
+}
+
+.skillsX .boxX {
+
+    position: relative;
+    width: 100%;
+    display:grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+}
+
+.skillsX .boxX h4 {
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+}
+
+.skillsX .boxX .percentX {
+
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgba(165,209,251, 0.473);
+
+
+}
+
+.skillsX .boxX .percentX div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(165, 209, 251)
+}
+
+.interestX ul {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+}
+
+.interestX ul li {
+    list-style: none;
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.interestX ul li .fa-solid {
+    color: rgba(165,209,251);
+    width: 18px;
+}
+
+@media (max-width:1000px) {
+    .containerX {
+        margin: 10px;
+        grid-template-columns: (1,1fr);
+    }
+    .interestX ul {
+        grid-template-columns: (2,1fr);
+    }
+}
+
+@media (max-width: 666px){
+
+    .aboutX .boxX {
+        flex-direction: column;
+    }
+.aboutX .boxX .year_companyX
+{
+    min-width: 150px;
+    margin-bottom: 5px;
+
+}
+.interestX ul {
+
+    grid-template-columns: repeat(1,1fr);
+}
+
+.skillX .boxX {
+    grid-template-columns: repeat(1,1fr);
+}
+
+}

@@ -1,0 +1,242 @@
+<!-- 
+                                         
+                           93+         93+ 
+                           +93   /     +93 
+___  __    __  ____    ___ ___  /M     ___ 
+`AT 6ATb  6ATb `AT(    )M' `93 /ATTUR  `KE 
+ +381 `DATE `M0 `Nt    h'   93  AT      XE 
+ 63'   05'   07  1993YEA    93  AT      @G 
+ 11    07    07   AT  M     93  AT      MA 
+ 68    19    19   `Zyx'     93  AT      IL 
+ 07    93    93    SRB      93  AT.  ,  .C 
+_6_   _6_   _6_     V       93   MVJT1 _OM_
+                            93             
+                        (1) 93             
+                         JUL5              
+
+ Version: 0.0.1
+  Author: Aleksandar Turovic
+ Website: *//*
+    Docs: *//*
+    Repo: *//*
+  Issues: *//*
+    c@Not Published
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style/style.css">
+        <link rel="stylesheet" href="/style/style101.css">
+        <link rel="stylesheet" href="/style/styleTest.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <title>Kalkulacija: mesečnih režija</title>
+    </head>
+    <body>
+    <div class="container">
+        <div class="main duo">
+            <div class="rezije">
+                <div class="nav">
+                    <ul>
+                        <a href="index.html"> <li class="xClass xClass1">X</li></a>
+                        <a href="solo.html"><li class="xClass2">Solo</li></a>
+                        <a href="duo.html"><li class="xClass3 ruleColor ">Duo</li></a>
+                    </ul>
+                </div>
+                <!-- image source -->
+                <div class="img">
+                    <img src="images/smileSurvive.gif" alt="">
+                </div>              
+                <h1>Multiplayer Survival Kit</h1>
+                <span class="naslov">Trenutno na racunu:</span>
+                <!-- input Calc -->
+                    <input onInput="duoScript();" class="border-box-stanje"type="number" id="stanje" name="stanje" placeholder=" Upisi stanje RSD"><br><br>
+                    <input onInput="duoScript();" class="border-box"type="number" id="rentStana" name="rent"  placeholder=" Upisi rent EUR "><br><br>
+                    <input onInput="duoScript();" class="border-box"type="number" id="infostan" name="infostan" placeholder=" Upisi infostan RSD"><br><br>
+                    <input onInput="duoScript();" class="border-box"type="number" id="sbb" name="sbb" placeholder=" Upisi sbb RSD"><br><br>
+                    <input onInput="duoScript();" class="border-box"type="number" id="struja" name="struja" placeholder=" Upisi struju RSD"><br><br>
+                    <br>
+                        <!-- output number -->
+                        <div class="total-box">
+                            <br> <span>Total:</span> <output type="number" id="konacnoHalf" name="konacnoHalf"></output>
+                        </div>
+
+        </div>
+    </div>
+    <div class="left-side">
+        
+        <div class="left-side">
+
+            <div class="left-sideX">
+                <div class="containerX">
+                    <div class="left-sideX">
+                        <div class="profile-textX">
+                            <div class="img-boxX">
+                                <img src="images/avatar.png" alt="">
+                            </div>
+                            <h2>Aleksandar Turovic<br><span>Junior Web Developer</span></h2>
+                        </div>
+            
+            
+                        <div class="contact-infoX">
+                            <h3 class="titleX">Contact info</h3>
+                            <ul>
+                                <li>
+                                    <span class="iconX"><i class="fa-solid fa-envelope"></i></span>
+                                    <span class="textX">atturkexe@gmail.com</span>
+                                </li>
+                                <li>
+                                    <span class="iconX"><i class="fa-solid fa-square-phone"></i></span>
+                                    <span class="textX">+381631168076</span>
+                                </li>
+                                <li>
+                                    <span class="iconX"><i class="fa-solid fa-house"></i></span>
+                                    <span class="textX">Luke Vojvodica 26/7, 11090 Belgrade</span>
+                                </li>
+                            </ul>
+            
+            
+            
+                            <div class="contact-infoX educationX">
+                                <h3 class="title">Education</h3>
+                                <ul>
+                                    <li>
+                                        <h5>2008 - 2012</h5>
+                                        <h4>Bachelor of Mechanical Technician, also known as Computer-Aided Design (CAD) Technician  <span class="text-muted h6"> &nbsp Nikola Tesla, Med 16240</h4>
+                                    </li>
+                                </ul>
+            
+                                <div class="contact-infoX languageX">
+                                    <h3 class="title">Language</h3>
+                                    <ul>
+                                        <li>
+                                            <span class="textX"> Serbian</span>
+                                            <span class="percentX">
+                                                <div style="width:100%"></div>
+                                            </span>
+                                        </li>
+            
+                                        <li>
+                                            <span class="textX"> English </span>
+                                            <span class="percentX">
+                                                <div style="width:75%"></div>
+                                            </span>
+                                        </li>
+                                    </ul>
+                             </div>
+            
+                             <div class="col-md-7 d-print-none" data-aos="zoom-in" data-aos-delay="100">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d177.0881998165461!2d20.43884631623737!3d44.75202804470506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a71bfb7b7ef2f%3A0xc022552c14611801!2z0JvRg9C60LUg0JLQvtGY0LLQvtC00LjRm9CwIDI2LCDQkdC10L7Qs9GA0LDQtA!5e0!3m2!1ssr!2srs!4v1628260730262!5m2!1ssr!2srs" width="100%" min-height="200px" style="border:0;" allowfullscreen="" loading="lazy">
+                            </iframe></div>
+                         
+                        </div>      
+                    </div>
+            
+            
+                    </div>
+                    <div class="right-sideX">
+                        <div class="aboutX">
+                            <h2 class="title2X">Profile</h2>
+                            <p>Hi! I'm Aleksandar. I love working with technology and have a passion for design, live for the challenge of making online tools work better, and seeking for career in web development. I can also say that i am a quick learner and a team worker.
+                               
+                            </p>
+                        </div>
+                        <div class="aboutX">
+                            <h2 class="title2X">Experience</h2>
+                            <div class="boxX">
+                                <div class="year_companyX">
+                                    <h5>2021 - Present</h5>
+                                    <h5>Iris Mega</h5>
+                                    <h5>Computerland</h5>
+                                </div>
+                                <div class="textX">
+                                    <h4>Retail Salesperson</h4>
+                                    <p></p>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="aboutX skillsX">
+                        <h2 class="title2X">Professional Skills</h2>
+                        <div class="boxX">
+                            <h4>HTML</h4>
+                            <div class="percentX">
+                                <div style="width:85%;"></div>
+                            </div>
+                        </div>
+                        <div class="boxX">
+                            <h4>CSS</h4>
+                            <div class="percentX">
+                                <div style="width:75%;"></div>
+                            </div>
+                        </div>
+                        <div class="boxX">
+                            <h4>Javascript</h4>
+                            <div class="percentX">
+                                <div style="width:70%;"></div>
+                            </div>
+                        </div>
+                        <div class="boxX">
+                            <h4>Photoshop</h4>
+                            <div class="percentX">
+                                <div style="width:70%;"></div>
+                            </div>
+                        </div>
+                        <div class="boxX">
+                            <h4>Microsoft Word, Microsoft Exel</h4>
+                            <div class="percentX">
+                                <div style="width:80%;"></div>
+                            </div>
+                        </div>
+                        <div class="boxX">
+                            <h4>Hardware resources and information</h4>
+                            <div class="percentX">
+                                <div style="width:75%;"></div>
+                            </div>
+                        </div>
+                        <div class="boxX">
+                            <h4>AUTODESK Inventor</h4>
+                            <div class="percentX">
+                                <div style="width:85%;"></div>
+                            </div>
+                        </div>
+                        <div class="boxX">
+                            <h4>AUTOCAD</h4>
+                            <div class="percentX">
+                                <div style="width:78%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="boxX">
+                            <h4>FLStudio</h4>
+                            <div class="percentX">
+                                <div style="width:75%;"></div>
+                            </div>
+                        </div>
+                        <div class="about interestX">
+                            <h2 class="title2X">Interest</h2>
+                            <ul>
+                                <li><i class="fa-solid fa-gamepad"></i> Gaming </li>
+                                <li><i class="fa-solid fa-gamepad"></i> Music </li>
+                                <li><i class="fa-solid fa-book-open"></i> Reading </li>
+                                <li><i class="fa-solid fa-pen-ruler"></i> Drawing </li>
+                            </ul>
+                        </div>
+        
+            
+          </div>
+     </div>
+    <!-- scripts -->
+    <script type="text/javascript" src="/script/duo.js"></script>
+    <script type="text/javascript" src="/script/clickSound.js"></script>
+</body>
+</html>
+
+
+<!-- trash unsolved -->
+<!-- <!-- <form oninput="stanjeStore.value=parseInt(stanje.value)-(rent.value)-(infostan.value)-(sbb.value)-(struja.value)"> -->
